@@ -1,0 +1,41 @@
+body {
+    background-image: linear-gradient(90deg, rgba(0, 162, 255, 0.459), rgba(0, 255, 85, 0.404));
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+label {
+    cursor: pointer;
+}
+.d-nai{
+    display: none;
+}
+.d-ache{
+    display: block;
+}
+.age-calculetor,
+.rerult {
+    width: 700px;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.301);
+}
+.relode{
+    font-size: 50px;
+}
+input[type="submit"]{
+    background-image: linear-gradient(90deg, rgba(0, 162, 255, 0.459), rgba(0, 255, 85, 0.404));
+
+}
+button{
+    background-image: linear-gradient(90deg,  rgba(0, 255, 85, 0.281),rgba(0, 162, 255, 0.247));
+    border: none !important;
+    outline: none;
+}
